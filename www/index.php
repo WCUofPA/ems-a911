@@ -7,6 +7,7 @@
 </head>
     <body>
         <h1>QRS-58 Active 911 Dispatch</h1>
+	<form method="Post" action="emailit.php">
         <table width=25%>
             <tr>
                 <td>Cody #</td>
@@ -60,4 +61,6 @@
                 <td colspan=2><textarea name="notes" id="" cols="40" rows="10"></textarea></td>
             </tr>
         </table>
+	<input type=submit value="submit">
+</form>
     </body>
