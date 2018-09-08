@@ -25,6 +25,7 @@
                 <td>Location</td>
                 <td><select name="location">
                     <optgroup label="North">
+<?php include "locations.php" ?>
                         <option value="ALG">Allegheny Hall</option>
                         <option value="AND">Anderson Hall</option>
                     </optgroup>
