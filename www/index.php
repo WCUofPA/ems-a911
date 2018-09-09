@@ -16,24 +16,13 @@
             <tr>
                 <td>Call Type</td>
                 <td><select name="CallType">
-                    <option value="Sick Person">Sick Person</option>
-                    <option value="ETOH-Eval">Alcohol Evaluation</option>
-                    <option value="RespDiff">Respiratory Difficulty</option>
-                    <option value="Chest Pain">Chest Pain</option>
+			<?php include "calltypes.php" ?>
                 </select></td>
             </tr>
             <tr>
                 <td>Location</td>
                 <td><select name="location">
-                    <optgroup label="North">
-<?php include "locations.php" ?>
-                        <option value="ALG">Allegheny Hall</option>
-                        <option value="AND">Anderson Hall</option>
-                    </optgroup>
-                    <optgroup label="South">
-                        <option value="HSC">Sturzebecker</option>
-                        <option value="MCC">McCoy Farm</option>
-                    </optgroup>
+			<?php include "locations.php" ?>
                 </select></td>
             </tr>
             <tr>
