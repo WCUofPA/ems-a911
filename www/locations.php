@@ -4,10 +4,10 @@
 <?php
 foreach ($locations as $building)
 {
-  print "<option value=\""
-    print $building[0];
-    print "\">";
-    print $Building[1];
-    print "</option>";
+  echo "<option value=\""
+    echo $building[0];
+    echo "\">";
+    echo $Building[1];
+    echo "</option>";
 }
 ?>
