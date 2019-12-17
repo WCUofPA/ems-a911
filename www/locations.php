@@ -1,10 +1,12 @@
 <?php
-foreach ($locations as $building)
+foreach ($locations as $buildingCode => $BuildingName)
 {
+  foreach ($BuildingName as $BldgName)
+  {
   echo "<option value=\"";
-    echo $building[0];
+    echo $buildingCode;
     echo "\">";
-    echo $Building[1];
+    echo $BldgName;
     echo "</option>";
 }
 ?>
