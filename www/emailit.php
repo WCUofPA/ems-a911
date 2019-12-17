@@ -28,7 +28,7 @@ $message = $message . "AVPU: " . $AVPU . "\n";
 $message = $message . $Notes . "\n";
 
 $headers = "From:" . $from;
-#mail($to,$subject,$message,$headers);
+mail($to,$subject,$message,$headers);
 echo $message;
 echo "Message sent.";
 
