@@ -13,8 +13,8 @@ $Notes = clean_data($_POST["notes"]);
 
 
 $from = "test@piscitello.org";
-$to = "frank@piscitello.org";
-# $to = "27576-Yz77em2hsQfTiCPv@alert.active911.com";
+#$to = "frank@piscitello.org";
+$to = "27576-Yz77em2hsQfTiCPv@alert.active911.com";
 $subject = "WCUPA EMS DISPATCH";
 $message = "CALL: " . $callType . "\n";
 $message = $message . "PLACE: " . $locations[$buildingCode][BUILDINGNAME] . "\n";
