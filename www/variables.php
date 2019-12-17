@@ -99,5 +99,5 @@ $locations = array(
 define("BUILDINGCODE",0);
 define("BUILDINGNAME",1);
 define("BUILDINGADDR",2);
-vardump($locations);
+var_dump($locations);
 ?>
