@@ -14,7 +14,7 @@ $Notes = clean_data($_POST["notes"]);
 
 $from = "test@piscitello.org";
 $to = "frank@piscitello.org";
-$to = "27576-Yz77em2hsQfTiCPv@alert.active911.com";
+# $to = "27576-Yz77em2hsQfTiCPv@alert.active911.com";
 $subject = "Testing Email";
 $message = "CALL: " . $callType . "\n";
 $message = $message . "PLACE: " . $locations[$buildingCode][BUILDINGNAME] . "\n";
