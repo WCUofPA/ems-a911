@@ -99,5 +99,4 @@ $locations = array(
 define("BUILDINGCODE",0);
 define("BUILDINGNAME",1);
 define("BUILDINGADDR",2);
-var_dump($locations);
 ?>
