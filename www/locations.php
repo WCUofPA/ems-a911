@@ -1,5 +1,5 @@
 <?php
-foreach ($locations as $buildingCode => $BuildingName)
+foreach ($locations as $buildingCode => $buildingName)
 {
     echo "<option value=\"";
     echo $buildingCode;
