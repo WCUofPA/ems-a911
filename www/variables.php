@@ -99,5 +99,5 @@ $locations = array(
 constant(BUILDINGCODE,0);
 constant(BUILDINGNAME,1);
 constant(BUILDINGADDR,2);
-
+vardump($locations);
 ?>
