@@ -96,8 +96,8 @@ $locations = array(
 	"V193" => array("V193","Village 193 Maint Bldg","193 Carey Dr"),
 	"ZZZ" => array("ZZZ","Other Campus Location","")
 	);
-constant(BUILDINGCODE,0);
-constant(BUILDINGNAME,1);
-constant(BUILDINGADDR,2);
+define("BUILDINGCODE",0);
+define("BUILDINGNAME",1);
+define("BUILDINGADDR",2);
 vardump($locations);
 ?>
