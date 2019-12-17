@@ -4,7 +4,7 @@ foreach ($locations as $buildingCode => $BuildingName)
     echo "<option value=\"";
     echo $buildingCode;
     echo "\">";
-    echo key($buildingCode);
+    echo $buildingName[0]);
     echo "</option>";
 }
 ?>
