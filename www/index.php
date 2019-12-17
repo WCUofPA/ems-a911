@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="a911.css">
     <title>QRS-58 Active 911 Dispatch</title>
+<?php include "variables.php" ?>
+
 </head>
     <body>
         <h1>QRS-58 Active 911 Dispatch</h1>
