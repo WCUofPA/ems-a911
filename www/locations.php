@@ -6,6 +6,5 @@ foreach ($locations as $buildingCode => $BuildingName)
     echo "\">";
     echo key($buildingName);
     echo "</option>";
-  }
 }
 ?>
