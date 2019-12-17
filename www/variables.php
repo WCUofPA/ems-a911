@@ -1,3 +1,5 @@
+<?php
+
 $locations = array( 
 	"ALG" => array("ALG","Allegheny Hall","120 University Ave"),
 	"BRN" => array("BRN","Brandywine Hall","709 S New St"),
@@ -97,3 +99,5 @@ $locations = array(
 constant(BUILDINGCODE,0);
 constant(BUILDINGNAME,1);
 constant(BUILDINGADDR,2);
+
+?>
