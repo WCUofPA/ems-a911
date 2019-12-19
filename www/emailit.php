@@ -38,7 +38,7 @@ $headers = array ('From' => $from,
 	'Subject' => $subject);
 $smtp = Mail::factory('smtp');
 $mail = $smtp->send($to, $headers, $message);
-if (PEAR::isError($mail) {
+if (PEAR::isError($mail)) {
 	echo ("<p>" . $mail->getMessage() . "</p>");
 }
 else
